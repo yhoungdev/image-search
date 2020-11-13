@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgCol:rgba(252, 250, 250, 0.863);
+  --color:rgb(41, 39, 39);
+  --shade: rgba(131, 126, 126, 0.918); 
+}
+
+header {
+  width:100%;
+  background-color: var(--bgCol);
+  position: sticky;
+}
+header  .head {
+  display: flex;
+  padding:1.5em;
+  color: var(--shade);
+  font-weight: bold;
+
+  
+}
+
+/*mobile*/
+
+
